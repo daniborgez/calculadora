@@ -47,7 +47,8 @@ public class telaSuperCalculadora extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 3, 18)); // NOI18N
-        jLabel1.setText("Super Calculadora");
+        jLabel1.setForeground(new java.awt.Color(204, 0, 51));
+        jLabel1.setText("Super Calculadora!");
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         jLabel2.setText("Informe um valor: ");
